@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="menu-bar">
+            <nav class="menu">
+                <ul class="container">
+                    <img src="images/logoASCII.png" alt="Logo Empresa Junior ASCII">
+                    <li><a href="#sobre">Sobre você</a></li>
+                    <li><a href="#conhecimentos">Conhecimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="sobre container" id="sobre">
+        <h1>Sobre você</h1>
+        <img src="images/eu.jpeg" alt="Tiago Souza">
+        <p>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+           Cras consequat bibendum purus, nec lobortis mauris convallis sed. Etiam iaculis viverra nunc in suscipit.
+           Phasellus elementum euismod libero non scelerisque. Cras et tortor et velit ornare rutrum et et metus.
+           Cras tristique porta mi nec blandit. Aliquam vel ligula elit. Suspendisse ultrices neque laoreet nisl congue sollicitudin.
+           Maecenas dictum pharetra vulputate. Sed id odio id turpis condimentum tincidunt. Integer rhoncus in tortor et iaculis.
+           Praesent sollicitudin odio non placerat gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+    </section>
+    <section class="conhecimentos" id="conhecimentos">
+        <h1>Conhecimentos</h1>
+        <div class="bloco">
+            <ul>
+                <li><button onclick="edu(document.querySelector('.listagem'))" autofocus>Educação</button></li>
+                <li><button onclick="hab(document.querySelector('.listagem'))">Habilidades</button></li>
+                <li><button onclick="soft(document.querySelector('.listagem'))">Soft Skills</button></li>
+            </ul>
+            <p class="listagem">
+                > Estudo Ciência da computação na UFU, 7periodo<br>
+                > Certificado de Ingles avancado<br>
+                > Certificado de maratona de programação<br>
+            </p>
+        </div>
+    </section>
+    <section class="contato container" id="contato">
+        <h1>Contato</h1>
+        <img src="images/agenda.png" alt="Agenda telefonica">
+        <p>
+            Email:<br>
+            Telefone:<br>
+            LinkedIn:<br>
+            ...
+        </p>
+    </section>
+    <footer>
+        Desenvolvido com <img src="images/heart.svg" alt="Emoji coração"> por Tiago Souza
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
